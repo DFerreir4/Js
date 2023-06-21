@@ -6,7 +6,7 @@ var msg2 = window.document.getElementById('ola')
 var footer = window.document.getElementById('p-rodape')
 var data = new Date()
 //var hora = data.getHours()
-var hora = 6
+var hora = 7
 msg.innerHTML = `Agora são ${hora} horas.`
 
 
