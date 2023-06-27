@@ -1,6 +1,12 @@
 let num = [10, 20, 30, 500]
 num.push(35)
-
+num.sort()
 console.log(num)
-console.log(`nosso vetor é o ${num[4]}`)
-console.log(num.sort())
+let pos = num.indexOf(35)
+
+
+if(pos == -1){
+    console.log('Valor não encontrado')
+} else {
+    console.log(`O valor está na posição ${pos}`)
+}
